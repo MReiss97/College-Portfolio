@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+    <link rel="stylesheet" href="splash.css">
+    <style>
+        
+html {
+    background-image: url(img/homepage1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+</head>
+<body>
+    <div class="splash">
+        <video id="video" autoplay muted>
+            <source src="videos/splash/splash.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script src="splash.js"></script>
+    <script>
+        setTimeout(function() {
+            window.location.href = "main.html";
+        }, 7000); // Redirect after 7 seconds (7000 milliseconds)
+    </script>
+</body>
+</html>
