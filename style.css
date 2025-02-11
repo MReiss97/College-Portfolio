@@ -1,7 +1,7 @@
 body,html {
     height: 100%;
     margin: 0;
-    background-color: black !important;
+    background-color: rgb(28, 27, 27) !important;
     cursor: none;
   }
 
@@ -63,6 +63,8 @@ nav {
   background-color: rgb(49, 49, 49);
   border-radius: 25px;
   cursor: none;
+  border-color: rgb(9, 57, 103);
+  border-style: solid;
 }
 .navBarName {
  font-size:40px !important;
@@ -106,7 +108,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #91b5df !important;
+  background: rgb(9, 57, 103) !important;
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
@@ -148,7 +150,7 @@ nav.fill ul li a:hover:after {
 
 /* When the navbar is open (expanded) */
 .navbar-collapse.show {
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: #343a40; /* Or whatever your background color is */
   border: 2px solid #ffffff !important; /* Add border on expanded state */
   border-radius: 6px; /* Optional: Rounded corners */
@@ -175,3 +177,64 @@ nav.fill ul li a:hover:after {
 }
 
 /* End of navbar design */
+
+/* Start of Introductory Section CSS */
+
+.max1{
+  font-size: 35px;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  pointer-events: none;
+}
+
+.max2{
+  font-size: 15px;
+  color: grey;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  pointer-events: none;
+}
+
+.hackerimage{
+  height: 326px;
+  width: 289.5px;
+}
+
+/* End of Introductory Section CSS */
+/* Start of Button Neumorphic section */
+
+.css-button-neumorphic {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  min-width: 130px;
+  height: 40px;
+  padding: 5px 10px;
+  transition: all 0.3s ease, transform 0.2s ease-in-out;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(15, 84, 149);
+  background: #e0e5ec;
+  color: #585858;
+  box-shadow: none;
+}
+
+.css-button-neumorphic:hover {
+  box-shadow: 3px 3px 4px #c8d0e7, -2px -2px 3px #fff;
+  transform: scale(1.05);
+  background: rgb(220, 225, 230);
+  color: rgb(15, 84, 149);
+}
+
+.css-button-neumorphic:active {
+  transform: scale(0.95);
+  box-shadow: inset 2px 2px 5px #c8d0e7, inset -2px -2px 5px #fff;
+}
+
+/* End of Button Neumorphic section */
