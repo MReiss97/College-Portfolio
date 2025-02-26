@@ -238,3 +238,63 @@ nav.fill ul li a:hover:after {
 }
 
 /* End of Button Neumorphic section */
+
+/* Start of Projects section */
+
+.projects1{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(15, 84, 149);
+  white-space: nowrap;
+}
+
+.horizontalline1{
+  border: solid;
+  border-width: 3px;
+  color: rgb(0, 128, 255);
+}
+
+.grid-container {
+  columns: 3 200px;
+  column-gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  place-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.grid-container div {
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px rgb(15, 84, 149);
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+  
+}
+.grid-container div:hover img {
+  filter: grayscale(0);
+}
+.grid-container div:hover {
+  border-color: rgb(164, 42, 201);
+}
+.grid-container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.grid-item {
+  height: 300px;
+}
